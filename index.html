@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mysimplewebsite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="main.js"></script>
+
+</body>
+<header>
+    <h1>Fashion Store</h1>
+    <p>Style your way!</p>
+</header>
+
+<main>
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="image-container">
+            <img id="mainImage" src="images/fashion.jpg" alt="Fashion Item">
+        </div>
+        <div class="thumbnails">
+            <img src="images/fashion.jpg" alt="" onclick="changeImage('images/fashion.jpg')">
+            <img src="images/fashion1.jpg" alt="" onclick="changeImage('images/fashion1.jpg')">
+            <img src="images/fashion2.jpg" alt="" onclick="changeImage('images/fashion2.jpg')">
+            <img src="images/fashion3.jpg" alt="" onclick="changeImage('images/fashion3.jpg')">
+        </div>
+    </section>
+
+    <section class="fashionstore">
+        <h2>Subscribe to Our Fashion Store</h2>
+        <form id="subscribeForm">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <button type="submit">Subscribe</button>
+        </form>
+        <p id="formMessage" class="hidden"></p>
+    </section>
+</main>
+
+<footer>
+    <button id="toggleFooter">Hide Footer</button>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
+
+</html>

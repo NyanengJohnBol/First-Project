@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f4a261;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.image-container img {
+    width: 300px;
+    border: 5px solid #e76f51;
+}
+
+.thumbnails img {
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.fashionstore form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.fashionstore input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.fashionstore button {
+    padding: 10px 20px;
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fashionstore button:hover {
+    background-color: #21867a;
+}
+
+footer {
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
